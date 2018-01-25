@@ -1,9 +1,9 @@
-# 有序集合，
+# 有序集合
 
 # 以下是关于可变的list
 names = ["chris", "una", "emily", 'chris'];
 for name in names:
-    print(name);
+	print(name);
 
 names.pop(3);
 names[1] = 'una li';
@@ -14,11 +14,11 @@ print(names[1]);
 count = len(names);
 
 if count < 0:
-    print("集合为空");
+	print("集合为空");
 elif count == 1:
-    print("只有1外");
+	print("只有1外");
 else:
-    print('太多了')
+	print('太多了')
 
 names.clear();
 print(len(names));
@@ -38,14 +38,14 @@ print("============");
 
 i = 0;
 while i < 3:
-    print(i);
-    i+=1;
+	print(i);
+	i += 1;
 
-map = {"name" : "Chris", "age" : 33};
+map = {"name": "Chris", "age": 33};
 print(map["name"]);
 
 list = set([1, 2, 3, 5]);
 list.add(10);
-print(list;
+print(list);
 
 print("the end!");
